@@ -21,6 +21,7 @@ android {
 }
 
 dependencies {
+    compileOnly(files("libs/classes.jar"))
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
